@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f7fa;
+  }
+  
+  header {
+    background: #00796b;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    margin-top: 10px;
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  #suggestion {
+    background: #e0f2f1;
+    padding: 1rem;
+    text-align: center;
+    font-style: italic;
+  }
+  
+  #product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  .card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 200px;
+    margin: 10px;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .card img {
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+  
